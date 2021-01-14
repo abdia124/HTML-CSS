@@ -1,0 +1,8 @@
+body {
+    font-family:"Arial", "sans-serif";
+}
+
+nav { background-color: black }
+
+nav a {color: white;
+font-weight:bold; }
