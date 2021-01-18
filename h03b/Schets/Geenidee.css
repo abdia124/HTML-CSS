@@ -15,12 +15,14 @@ padding-right: 5px;
     padding-left: 5px;
 }
 div.wrapper {
-    width: 1000px;
+    width: 800px;
     margin: auto;
 }
 table{
     border: 1px solid black;
     border-collapse: collapse;
+    float: left;
+
 }
 td{
     padding: 10px;
@@ -29,3 +31,8 @@ td{
 }
 td.groen{background-color: green}
 td.blauw{background-color: blue}
+
+article {
+    float: left;
+    width: 50%;
+}
