@@ -1,7 +1,14 @@
 * {
     box-sizing: border-box;
 }
-body {
 
+div#wrapper{
+    margin: auto;
+    width: 1000px;
+    background-color:rgb( 251,235,235);
+
+}
+
+body {
 
 }
