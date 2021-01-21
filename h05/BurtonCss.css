@@ -20,6 +20,18 @@ nav {
     nav a{
         margin-right: 20px;
     }
-    section {
+    section.appel, section.visuals {
          width: 50%;
+        float: left;
     }
+section.visuals{
+    text-align: right;
+}
+
+img.appel {
+    width: 450px;
+}
+
+img.visual {
+    width: 450px;
+}
