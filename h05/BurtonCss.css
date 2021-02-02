@@ -13,6 +13,8 @@ body {
 font-family: "Arial", sans-serif;
     line-height: 24px;
 }
+select {
+}
 
 nav {
     margin-bottom: 20px;

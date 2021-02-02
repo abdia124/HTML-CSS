@@ -1,18 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="BurtonCss.css">
     <meta charset="UTF-8">
     <title>nyoho</title>
     <style>
         form ul {
         list-style-type: none;
-        padding: 0;
+        padding: 20px;
         }
 
         form ul li {
         padding: 10px;
         }
 
+
+
+
+        form select {
+            padding: 10px;
+        }
         form ul li input {
 
         position: absolute;
@@ -44,8 +51,16 @@
             <label for="achternaam"> Achternaam:</label>
             <input id="achternaam" type="text" name="achternaam">
         </li>
-        <input type="radio" name="geslacht" value="man" /> Man
-        <input type="radio" name="geslacht" value="vrouw" /> Vrouw
+        <input type="radio" geslacht name="geslacht"  value="man" />Man
+        <input type="radio" name="geslacht" value="vrouw" />Vrouw
+<br>
+        <select name="kleur-ogen">
+            <option>Groen</option>
+            <option>Blauw</option>
+            <option>Bruin</option>
+        </select>
+<br>
+        <input type="date" name="Geboortedam">geboortedatum
 
         <li>
             <input type="submit" name="knop">
