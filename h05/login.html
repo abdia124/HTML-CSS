@@ -14,7 +14,10 @@
         padding: 10px;
         }
 
-
+        .test3 {
+            position: absolute;
+            left: 300px;
+        }
 
 
         form select {
@@ -25,6 +28,22 @@
         position: absolute;
         left: 150px;
 
+        }
+        .test {
+            position: absolute;
+            left: 150px;
+            display: inline;
+        }
+        .man, .vrouw {
+            position: absolute;
+            display: inline;
+            padding-top: 0; margin-top: 0;
+        }
+        .man {
+            left: 200px;
+        }
+        .vrouw {
+            left: 375px;
         }
     </style>
 
@@ -44,19 +63,25 @@
         <li>
             <label for="tussenvoegsel"> Tussenvoegsel:</label>
             <input id="tussenvoegsel" type="text" name="tussenvoegsel">
-        </li>
-        <li>
+
         <li>
 
             <label for="achternaam"> Achternaam:</label>
             <input id="achternaam" type="text" name="achternaam">
-        </li>
-        <input type="radio" geslacht name="geslacht"  value="man" />Man
-        <input type="radio" name="geslacht" value="vrouw" />Vrouw
+
+        <br>
+        <label class="test2">Geslacht: </label>
+
+            <input type="radio" geslacht name="geslacht"  value="man" class="test"/><p class="man">Man</p>
+
+
+            <input type="radio" name="geslacht" value="vrouw" class="test3"/><p class="vrouw">Vrouw</p>
+
+
 <br>
 
 <br>
-        <input type="date" name="Geboortedam">geboortedatum
+        geboortedatum:<input type="date" name="Geboortedam">
         <br>
         <textarea name="omschrijving"></textarea>
 
