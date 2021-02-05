@@ -6,12 +6,12 @@
     <title>nyoho</title>
     <style>
         form ul {
-        list-style-type: none;
-        padding: 30px;
+            list-style-type: none;
+            padding: 30px;
         }
 
         form ul li {
-        padding: 10px;
+            padding: 10px;
         }
 
         .test3 {
@@ -23,36 +23,69 @@
         form select {
             padding: 10px;
         }
+
         form ul li input {
 
-        position: absolute;
-        left: 160px;
+            position: absolute;
+            left: 160px;
 
         }
+
         .test {
             position: absolute;
             left: 160px;
             display: inline;
         }
+
         .man, .vrouw {
             position: absolute;
             display: inline;
-            padding-top: 0; margin-top: 0;
+            padding-top: 0;
+            margin-top: 0;
         }
+
         .man {
             left: 200px;
         }
+
         .vrouw {
             left: 325px;
         }
+
         .tekst {
             position: absolute;
             left: 160px;
         }
+
         .datum {
             position: absolute;
             left: 160px;
         }
+
+        .eten {
+            position: absolute;
+            left: 600px;
+            top: 120px;
+        }
+
+        .eten1 {
+            position: absolute;
+            left: 620px;
+            top: 120px;
+        }
+
+        .eten2 {
+            position: absolute;
+            left: 600px;
+            top: 80px;
+        }
+
+        .eten3 {
+            position: absolute;
+            left: 620px;
+            top: 120px;
+        }
+
     </style>
 
 </head>
@@ -77,39 +110,40 @@
             <label for="achternaam"> Achternaam:</label>
             <input id="achternaam" type="text" name="achternaam">
 
-        <br>
-        <br>
-        <label class="test2">Geslacht: </label>
+            <br>
+            <br>
+            <label class="test2">Geslacht: </label>
 
-            <input type="radio"  name="geslacht"  value="man" class="test"/><p class="man">Man</p>
-
-
-            <input type="radio" name="geslacht" value="vrouw" class="test3"/><p class="vrouw">Vrouw</p>
+            <input type="radio" name="geslacht" value="man" class="test"/>
+            <p class="man">Man</p>
 
 
-<br>
+            <input type="radio" name="geslacht" value="vrouw" class="test3"/>
+            <p class="vrouw">Vrouw</p>
 
-<br>
-        Geboortedatum:<input class="datum" type="date" name="Geboortedam">
-        <br>
-        <br>
-        Omschrijving:<textarea class="tekst" name="omschrijving"></textarea>
+
+            <br>
+
+            <br>
+            Geboortedatum:<input class="datum" type="date" name="Geboortedam">
+            <br>
+            <br>
+            Omschrijving:<textarea class="tekst" name="omschrijving"></textarea>
 
         <li>
-        <br>
+            <br>
             <input type="submit" name="knop">
         </li>
     </ul>
 
 
-    <input class="eten" type="checkbox" id="eten1" name="eten1" value="Bonen">
-    <label for="eten1"> Sperciebonen</label><br>
-    <input type="checkbox" id="eten2" name="eten2" value="Sasha">
-    <label for="eten2"> Aardappelen</label><br>
-    <input type="checkbox" id="eten3" name="eten3" value="Burger">
-    <label for="eten3"> Hamburger</label><br><br>
-    <input type="submit" value="Submit">
-
+    <input class="eten" type="checkbox" id="eten1" name="Sperciebonen" value="Bonen">
+    <label class="eten1" for="eten1"> Sperciebonen</label><br>
+    <input class="eten2" type="checkbox" id="eten2" name="Aardappel" value="Sasha">
+    <label class="eten3" for="eten2"> Aardappelen</label><br>
+    <input class="eten4" type="checkbox" id="eten3" name="Hamburger" value="Burger">
+    <label class="eten5" for="eten3"> Hamburger</label><br><br>
+    <input class="eten6" type="submit" value="Submit">
 
 
 </form>
