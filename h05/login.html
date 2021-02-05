@@ -45,7 +45,11 @@
         .vrouw {
             left: 325px;
         }
-        .bvb {
+        .tekst {
+            position: absolute;
+            left: 160px;
+        }
+        .datum {
             position: absolute;
             left: 160px;
         }
@@ -86,7 +90,7 @@
 <br>
 
 <br>
-        Geboortedatum:<input type="date" name="Geboortedam">
+        Geboortedatum:<input class="datum" type="date" name="Geboortedam">
         <br>
         <br>
         Omschrijving:<textarea class="tekst" name="omschrijving"></textarea>
@@ -96,6 +100,15 @@
             <input type="submit" name="knop">
         </li>
     </ul>
+
+
+    <input class="eten" type="checkbox" id="eten1" name="eten1" value="Bonen">
+    <label for="eten1"> Sperciebonen</label><br>
+    <input type="checkbox" id="eten2" name="eten2" value="Sasha">
+    <label for="eten2"> Aardappelen</label><br>
+    <input type="checkbox" id="eten3" name="eten3" value="Burger">
+    <label for="eten3"> Hamburger</label><br><br>
+    <input type="submit" value="Submit">
 
 
 
