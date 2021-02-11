@@ -1,10 +1,13 @@
 body {
+    margin: 0px;
+    padding: 0px;
     background-color: rgb(250, 241, 234);
     font-family: 'Raleway', sans-serif;
 }
 
 header {
     background-color: rgb(192, 240, 223);
+    text-align: center;
 }
 
 li {
@@ -28,4 +31,8 @@ li a {
 h3{
     color: rgb(220,106,94);
     font-weight: 600;
+}
+
+img#logo {
+    width: 320px;
 }
