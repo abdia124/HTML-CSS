@@ -30,9 +30,22 @@ li a {
 
 h3{
     color: rgb(220,106,94);
-    font-weight: 600;
+    font-weight: 700;
 }
 
 img#logo {
     width: 320px;
+}
+
+section, footer{
+    padding: 20px;
+}
+
+footer{
+    background-color: rgb(128,128,128);
+    color: white;
+
+}
+footer h3{
+    color: white;
 }
